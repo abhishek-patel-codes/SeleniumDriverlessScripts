@@ -1,0 +1,44 @@
+.DS_Store
+.DS_Store?
+._*
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+*.python-version
+
+docs/build/
+docs/source/_templates/
+docs/source/_static/
+.env
+venv/
+.venv/
+.vscode/
+.conda/
+
+# exclude pdf, mp3
+*.pdf
+*.mp3
+*.sqlite
+*.google-cookie
+*.python-version
+examples/graph_examples/ScrapeGraphAI_generated_graph
+examples/**/result.csv
+examples/**/result.json
+main.py
+lib/
+*.html
+.idea
+
+# extras
+cache/
+run_smart_scraper.py
